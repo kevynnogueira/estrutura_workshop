@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "estrutura-dados"
+version = "0.1.0"
+description = "meu projeto de etl"
+authors = ["kevynnogueira <kevynnogueira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
